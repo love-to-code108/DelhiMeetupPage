@@ -1,6 +1,6 @@
 /* the main body of the website starts here */
 #mainGreyBackground {
-    background-color: var(--cp--darkGrey);
+    background-color: rgb(73, 73, 73);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +15,8 @@
 #navbar {
     background-color: var(--cp--black);
     width: 100%;
+    max-width: 1920px;
+    min-width: 1300px;
     position: fixed;
     top: 0;
     z-index: +10;
@@ -43,12 +45,12 @@
 
 .list2 {
     position: absolute;
-    right: 15.5rem;
+    right: 13.5rem;
 }
 
 .list1 {
     position: absolute;
-    right: 22.5rem;
+    right: 20.5rem;
 }
 
 .specialLink {
@@ -69,6 +71,8 @@
 #heroSection {
     width: 100%;
     height: 115vh;
+    max-width: 1920px;
+    min-width: 1200px;
     background-image: url(../assets/img/tarun-anand-giri-QdAGXP_Tv9Q-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -79,6 +83,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 /* ================= */
@@ -201,6 +206,8 @@
     background-color: var(--cp--black);
     width: 100%;
     height: auto;
+    max-width: 1920px;
+    min-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -302,6 +309,8 @@
 #perks {
     width: 100%;
     height: 57rem;
+    max-width: 1920px;
+    min-width: 1200px;
     background-color: var(--cp--black);
     display: flex;
     flex-direction: column;
@@ -369,6 +378,9 @@
 /* THE SPONSOR SECTION STARTS HERE */
 #sponsor {
     width: 100%;
+    max-width: 1920px;
+    min-width: 1200px;
+    background-color: var(--cp--darkGrey);
     padding: 8rem 8rem;
     display: flex;
     flex-direction: column;
@@ -395,6 +407,8 @@
 #letsConnect{
     width: 100%;
     height: 56rem;
+    max-width: 1920px;
+    min-width: 1200px;
     background-color: var(--cp--white);
     position: relative;
     
