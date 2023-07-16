@@ -1,6 +1,6 @@
 /* the main body of the website starts here */
 #mainGreyBackground {
-    background-color: var(--cp--darkGrey);
+    background-color: rgb(73, 73, 73);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +15,8 @@
 #navbar {
     background-color: var(--cp--black);
     width: 100%;
+    max-width: 1920px;
+    min-width: 1300px;
     position: fixed;
     top: 0;
     z-index: +10;
@@ -43,12 +45,12 @@
 
 .list2 {
     position: absolute;
-    right: 15.5rem;
+    right: 13.5rem;
 }
 
 .list1 {
     position: absolute;
-    right: 22.5rem;
+    right: 20.5rem;
 }
 
 .specialLink {
@@ -75,10 +77,16 @@
     background-repeat: no-repeat;
     background-position-y: -15rem;
     background-position-x: 1rem;
+    background-position-x: center;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1920px;
+    min-width: 1200px;
+    
+    
 }
 
 /* ================= */
@@ -201,6 +209,8 @@
     background-color: var(--cp--black);
     width: 100%;
     height: auto;
+    max-width: 1920px;
+    min-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -302,6 +312,8 @@
 #perks {
     width: 100%;
     height: 57rem;
+    max-width: 1920px;
+    min-width: 1200px;
     background-color: var(--cp--black);
     display: flex;
     flex-direction: column;
@@ -369,6 +381,9 @@
 /* THE SPONSOR SECTION STARTS HERE */
 #sponsor {
     width: 100%;
+    max-width: 1920px;
+    min-width: 1200px;
+    background-color: var(--cp--darkGrey);
     padding: 8rem 8rem;
     display: flex;
     flex-direction: column;
@@ -393,8 +408,11 @@
 
 
 #letsConnect{
+    font-size: 16px;
     width: 100%;
     height: 56rem;
+    max-width: 1920px;
+    min-width: 1200px;
     background-color: var(--cp--white);
     position: relative;
     
@@ -415,33 +433,33 @@
 
 /* the socials */
 .discord{
-    width: 20rem;
-    height: 20rem;
+    width: 20em;
+    height: 20em;
     background-color: #7289da;
     position: absolute;
-    top: 8rem;
-    right: 8rem;
+    top: 8em;
+    right: 8em;
 }
 
 .twitter{
-    width: 12rem;
-    height: 12rem;
+    width: 12em;
+    height: 12em;
     background-color: #3b92f8;
     position: absolute;
-    top: 29rem;
-    right: 16rem;
+    top: 29em;
+    right: 16em;
 }
 
 .mediumSize{
-    width: 15rem;
-    height: 15rem;
+    width: 15em;
+    height: 15em;
     background-color: red;
     position: absolute;
-    top: 18rem;
-    right: 29rem;
+    top: 18em;
+    right: 29em;
 }
 .linkedin{
     background-color: #386ab5;
-    top: 34rem;
-    right: 29rem;
+    top: 34em;
+    right: 29em;
 }
