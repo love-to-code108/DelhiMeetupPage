@@ -1,5 +1,5 @@
 /* the main body of the website starts here */
-#mainGreyBackground{
+#mainGreyBackground {
     background-color: var(--cp--darkGrey);
     display: flex;
     flex-direction: column;
@@ -12,14 +12,15 @@
 
 /* ==================== */
 /* THE NAVBAR GOES HERE */
-#navbar{
+#navbar {
     background-color: var(--cp--black);
     width: 100%;
     position: fixed;
     top: 0;
     z-index: +10;
 }
-.navbarWrapper{
+
+.navbarWrapper {
     list-style: none;
     height: 5rem;
     width: 100%;
@@ -28,36 +29,36 @@
     justify-content: center;
 }
 
-.linked{
+.linked {
     text-decoration: none;
     color: white;
     font-family: var(--ff--sora);
     font-size: 1.3rem;
 }
 
-.list3{
+.list3 {
     position: absolute;
     right: 4rem;
 }
 
-.list2{
+.list2 {
     position: absolute;
     right: 15.5rem;
 }
 
-.list1{
+.list1 {
     position: absolute;
     right: 22.5rem;
 }
 
-.specialLink{
+.specialLink {
     background-color: #c9ab91;
     color: #2c1609;
     padding: 0.4em;
     border-radius: 10px;
 }
 
-.imgPlacer{
+.imgPlacer {
     position: absolute;
     top: 1.5rem;
 }
@@ -65,14 +66,14 @@
 /* ===================== */
 /* Hero BackGround Image */
 
-#heroSection{
+#heroSection {
     width: 100%;
     height: 115vh;
     background-image: url(../assets/img/tarun-anand-giri-QdAGXP_Tv9Q-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y:-15rem ;
+    background-position-y: -15rem;
     background-position-x: 1rem;
     display: flex;
     flex-direction: column;
@@ -82,7 +83,7 @@
 
 /* ================= */
 /* HERO SECTION TEXT */
-#heroSectionTextWrapper{
+#heroSectionTextWrapper {
     width: 45rem;
     height: 15rem;
     border: 2px solid blue;
@@ -93,9 +94,10 @@
     position: relative;
     bottom: 4rem;
     left: 3rem;
-    
+
 }
-.heroTextMedium{
+
+.heroTextMedium {
     color: white;
     font-size: 2rem;
     font-family: var(--ff--jost);
@@ -103,9 +105,9 @@
     line-height: 1rem;
 }
 
-.cityName{
+.cityName {
     color: white;
-    font-size: 6rem ;
+    font-size: 6rem;
     font-family: var(--ff--sora);
 }
 
@@ -113,7 +115,7 @@
 
 /* =========== */
 /* SPEAKERS */
-#speakers{
+#speakers {
     background-color: var(--cp--black);
     width: 100%;
     height: auto;
@@ -122,7 +124,8 @@
     align-items: center;
     padding: 0 8rem;
 }
-#speakers h1{
+
+#speakers h1 {
     font-size: 4rem;
     font-family: var(--ff--sora);
     padding: 4rem;
@@ -136,14 +139,15 @@
 
 /* speaker1 section */
 
-#speaker1div{
+#speaker1div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 2rem 0;
     margin-bottom: 6rem;
 }
-.speaker1Paragraph{
+
+.speaker1Paragraph {
     width: 100%;
     font-family: var(--ff--jost);
     font-size: 1.2rem;
@@ -152,12 +156,14 @@
     align-items: center;
     color: white;
 }
-.speaker1Image{
+
+.speaker1Image {
     width: 30%;
     height: auto;
     margin-left: 5rem;
 }
-.speaker1Heading{
+
+.speaker1Heading {
     width: 100%;
     color: white;
     font-size: 2.8rem;
@@ -173,15 +179,16 @@
 
 
 /* speaker2 section */
-#speaker2div{
+#speaker2div {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
 }
-.speaker2Image{
+
+.speaker2Image {
     width: 30%;
     height: auto;
-    margin-right:5rem ;
+    margin-right: 5rem;
 }
 
 
@@ -191,14 +198,15 @@
 
 
 /* speaker3 section */
-#speaker3div{
+#speaker3div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 2rem 0;
     margin-bottom: 6rem;
 }
-#writingWrapper{
+
+#writingWrapper {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -209,7 +217,7 @@
 /* ====================== */
 /* THE PERKS SECTION */
 
-#perks{
+#perks {
     width: 100%;
     height: auto;
     background-color: var(--cp--black);
@@ -219,7 +227,8 @@
     align-items: center;
     padding-bottom: 8rem;
 }
-.perksHeading{
+
+.perksHeading {
     color: white;
     font-size: 4rem;
     font-family: var(--ff--sora);
@@ -228,14 +237,15 @@
 }
 
 
-#perkWrapper{
+#perkWrapper {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.swags{
+
+.swags {
     width: 24rem;
     height: 24rem;
     background-color: var(--cp--darkGrey);
@@ -243,29 +253,84 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
-.swagsImgTrim{
+
+.swagsImgTrim {
     width: 18rem;
     height: 18rem;
 }
 
-.swag{
+.swag {
     margin-right: 4rem;
 }
-.pizza{
+
+.pizza {
     margin-left: 4rem;
 }
 
 
-.imgSubtitle{
+.imgSubtitle {
     font-size: 2rem;
     color: white;
     font-family: var(--ff--jost);
     position: relative;
     top: 6rem;
     font-weight: 600;
-    
+
 }
 
 
+/* ================================ */
+/* THE SPONSOR SECTION STARTS HERE */
+#sponsor {
+    width: 100%;
+    padding: 8rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+#sponsor h1 {
+    font-family: var(--ff--sora);
+    font-weight: 600;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 8rem;
+    margin-left: 7rem;
+}
+#sponsor img{
+    margin-left: 7rem;
+}
+
+/* =================================== */
+/* THE LETS CONNECT SECTION GOES HERE */
+
+
+#letsConnect{
+    width: 100%;
+    height: auto;
+    background-color: var(--cp--white);
+    
+}
+.letsConnectHeading{
+    color: var(--cp--black);
+    font-weight: 600;
+    font-family: var(--ff--sora);
+    font-size: 4rem;
+
+}
+.letsConnectImgTrimmer{
+    width: 20%;
+    height: auto;
+    margin: 2rem;
+}
+
+
+/* the socials */
+.discord{
+    width: 20rem;
+    height: 20rem;
+    background-color: #7289da;
+}
