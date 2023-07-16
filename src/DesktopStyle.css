@@ -310,8 +310,9 @@
 
 #letsConnect{
     width: 100%;
-    height: auto;
+    height: 52rem;
     background-color: var(--cp--white);
+    position: relative;
     
 }
 .letsConnectHeading{
@@ -324,7 +325,7 @@
 .letsConnectImgTrimmer{
     width: 20%;
     height: auto;
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 
@@ -333,4 +334,30 @@
     width: 20rem;
     height: 20rem;
     background-color: #7289da;
+    position: absolute;
+    top: 8rem;
+    right: 8rem;
+}
+
+.twitter{
+    width: 12rem;
+    height: 12rem;
+    background-color: #3b92f8;
+    position: absolute;
+    top: 29rem;
+    right: 16rem;
+}
+
+.mediumSize{
+    width: 15rem;
+    height: 15rem;
+    background-color: red;
+    position: absolute;
+    top: 18rem;
+    right: 29rem;
+}
+.linkedin{
+    background-color: #386ab5;
+    top: 34rem;
+    right: 29rem;
 }
