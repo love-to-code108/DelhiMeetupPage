@@ -71,18 +71,21 @@
 #heroSection {
     width: 100%;
     height: 115vh;
-    max-width: 1920px;
-    min-width: 1200px;
     background-image: url(../assets/img/tarun-anand-giri-QdAGXP_Tv9Q-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -15rem;
     background-position-x: 1rem;
+    background-position-x: center;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1920px;
+    min-width: 1200px;
+    
     
 }
 
