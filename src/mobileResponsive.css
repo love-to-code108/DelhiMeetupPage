@@ -1,0 +1,479 @@
+@media (max-width:425px){
+    /* the main body of the website starts here */
+#mainGreyBackground {
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* dimensions */
+    width: 100%;
+    height: auto;
+}
+
+/* ==================== */
+/* THE NAVBAR GOES HERE */
+#navbar {
+    background-color: var(--cp--black);
+    background-color: red;
+    width: 100%;
+    max-width: 425px;
+    min-width: none;
+    position: fixed;
+    top: 0;
+    z-index: +10;
+}
+
+.navbarWrapper {
+    list-style: none;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linked {
+    text-decoration: none;
+    color: white;
+    font-family: var(--ff--sora);
+    font-size: 1.3rem;
+}
+
+.list3 {
+    position: absolute;
+    right: 4rem;
+}
+
+.list2 {
+    position: absolute;
+    right: 13.5rem;
+}
+
+.list1 {
+    position: absolute;
+    right: 20.5rem;
+}
+
+.specialLink {
+    background-color: #c9ab91;
+    color: #2c1609;
+    padding: 0.4em;
+    border-radius: 10px;
+}
+
+.imgPlacer {
+    position: relative;
+    left: 2rem;
+    
+}
+
+/* ===================== */
+/* Hero BackGround Image */
+
+#heroSection {
+    width: 100%;
+    height: 115vh;
+    background-image: url(../assets/img/tarun-anand-giri-QdAGXP_Tv9Q-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -15rem;
+    background-position-x: 1rem;
+    background-position-x: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    min-width: 1200px;
+    
+    
+}
+
+/* ================= */
+/* HERO SECTION TEXT */
+#heroSectionTextWrapper {
+    width: 54rem;
+    height: auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 4rem;
+    left: 2rem;
+
+}
+
+.heroTextMedium {
+    color: white;
+    font-size: 2rem;
+    font-family: var(--ff--jost);
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+.cityName {
+    color: white;
+    font-size: 6rem;
+    font-family: var(--ff--sora);
+}
+
+
+/* ==================== */
+/* WRAPPER HERO SECTION */
+
+
+
+
+/* hero section wrapper 1 */
+.organizeDateVenuSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapperHeroSection1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-right: 1rem;
+}
+.wrapperHeroSectionPara{
+    color: white;
+    font-family: var(--ff--sora);
+    font-weight: 600;
+    padding: 0.2rem;
+    font-size: 1.4rem;
+}
+
+
+
+/* hero section wrapper 2 */
+.wrapperHeroSection2{
+    width: 0.25rem;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* hero section wrapper 3 */
+
+.wrapperHeroSection3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.edits{
+    margin-left: 1rem;
+}
+
+.dateWrapper{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgResizerHeroSection{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+
+/* the 4th section of the hero section wrapper 4 */
+.wrapperHeroSection4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.paddingEdits{
+    margin-right: -1rem;
+}
+
+.fontSize{
+    font-size: 1rem;
+}
+
+/* =========== */
+/* SPEAKERS */
+#speakers {
+    background-color: var(--cp--black);
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8rem;
+}
+
+#speakers h1 {
+    font-size: 4rem;
+    font-family: var(--ff--sora);
+    padding: 4rem;
+    padding-top: 8rem;
+    margin-left: 4rem;
+    color: white;
+}
+
+
+
+
+/* speaker1 section */
+
+#speaker1div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
+    margin-bottom: 6rem;
+}
+
+.speaker1Paragraph {
+    width: 100%;
+    font-family: var(--ff--jost);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.speaker1Image {
+    width: 30%;
+    height: auto;
+    margin-left: 5rem;
+}
+
+.speaker1Heading {
+    width: 100%;
+    color: white;
+    font-size: 2.8rem;
+    font-family: var(--ff--sora);
+    font-weight: 600;
+    /* line-height: 2rem; */
+    margin-bottom: 1.6rem;
+}
+
+
+
+
+
+
+/* speaker2 section */
+#speaker2div {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.speaker2Image {
+    width: 30%;
+    height: auto;
+    margin-right: 5rem;
+}
+
+
+
+
+
+
+
+/* speaker3 section */
+#speaker3div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
+    margin-bottom: 6rem;
+}
+
+#writingWrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ====================== */
+/* THE PERKS SECTION */
+
+#perks {
+    width: 100%;
+    height: 57rem;
+    max-width: 1920px;
+    min-width: 1200px;
+    background-color: var(--cp--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+.perksHeading {
+    color: white;
+    font-size: 4rem;
+    font-family: var(--ff--sora);
+    font-weight: 600;
+    margin: 4rem;
+    margin-top: 0rem;
+    margin-right: 0;
+}
+
+
+#perkWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.swags {
+    width: 24rem;
+    height: 24rem;
+    background-color: var(--cp--darkGrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+
+}
+
+.swagsImgTrim {
+    width: 18rem;
+    height: 18rem;
+}
+
+.swag {
+    margin-right: 4rem;
+}
+
+.pizza {
+    margin-left: 4rem;
+}
+
+
+.imgSubtitle {
+    font-size: 2rem;
+    color: white;
+    font-family: var(--ff--jost);
+    position: relative;
+    top: 6rem;
+    font-weight: 600;
+
+}
+
+
+/* ================================ */
+/* THE SPONSOR SECTION STARTS HERE */
+#sponsor {
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1200px;
+    background-color: var(--cp--darkGrey);
+    padding: 8rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+#sponsor h1 {
+    font-family: var(--ff--sora);
+    font-weight: 600;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 8rem;
+    margin-left: 4rem;
+}
+#sponsor img{
+    margin-left: 5rem;
+}
+
+/* =================================== */
+/* THE LETS CONNECT SECTION GOES HERE */
+
+
+#letsConnect{
+    font-size: 16px;
+    width: 100%;
+    height: 53rem;
+    max-width: 1920px;
+    min-width: 1200px;
+    background-color: var(--cp--white);
+    position: relative;
+    
+}
+.letsConnectHeading{
+    color: var(--cp--black);
+    font-weight: 600;
+    font-family: var(--ff--sora);
+    font-size: 4rem;
+
+}
+.letsConnectImgTrimmer{
+    width: 20%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+
+/* the socials */
+.discord{
+    width: 20em;
+    height: 20em;
+    background-color: #7289da;
+    position: absolute;
+    top: 8em;
+    right: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter{
+    width: 12em;
+    height: 12em;
+    background-color: #3b92f8;
+    position: absolute;
+    top: 29em;
+    right: 16em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mediumSize{
+    width: 15em;
+    height: 15em;
+    background-color: red;
+    position: absolute;
+    top: 18em;
+    right: 29em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin{
+    background-color: #386ab5;
+    top: 34em;
+    right: 29em;
+}
+}

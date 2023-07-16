@@ -19,4 +19,21 @@
         font-size: 14px;
         height: 46rem;
     }
+    #speaker1div{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+@media(max-width:1800px){
+    #speaker1div{
+        width: 100%;
+    }
+    #speakers{
+        padding: 0 ;
+    }
 }
