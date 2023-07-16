@@ -217,8 +217,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 8rem;
 }
-#perks p{
+.perksHeading{
     color: white;
     font-size: 4rem;
     font-family: var(--ff--sora);
@@ -239,6 +240,7 @@
     height: 24rem;
     background-color: var(--cp--darkGrey);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     
@@ -254,3 +256,16 @@
 .pizza{
     margin-left: 4rem;
 }
+
+
+.imgSubtitle{
+    font-size: 2rem;
+    color: white;
+    font-family: var(--ff--jost);
+    position: relative;
+    top: 6rem;
+    font-weight: 600;
+    
+}
+
+
