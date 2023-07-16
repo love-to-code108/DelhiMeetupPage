@@ -204,3 +204,53 @@
     flex-direction: column;
     justify-content: center;
 }
+
+
+/* ====================== */
+/* THE PERKS SECTION */
+
+#perks{
+    width: 100%;
+    height: auto;
+    background-color: var(--cp--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#perks p{
+    color: white;
+    font-size: 4rem;
+    font-family: var(--ff--sora);
+    font-weight: 600;
+    margin: 4rem;
+}
+
+
+#perkWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.swags{
+    width: 24rem;
+    height: 24rem;
+    background-color: var(--cp--darkGrey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.swagsImgTrim{
+    width: 18rem;
+    height: 18rem;
+}
+
+.swag{
+    margin-right: 4rem;
+}
+.pizza{
+    margin-left: 4rem;
+}
