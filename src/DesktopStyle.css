@@ -84,9 +84,9 @@
 /* ================= */
 /* HERO SECTION TEXT */
 #heroSectionTextWrapper {
-    width: 45rem;
+    width: 54rem;
     height: auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,6 +133,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    margin-right: 1rem;
 }
 .wrapperHeroSectionPara{
     color: white;
@@ -162,7 +163,7 @@
     padding: 2rem;
 }
 .edits{
-    margin-right: 2.5rem;
+    margin-left: 1rem;
 }
 
 .dateWrapper{
@@ -173,8 +174,25 @@
 
 .imgResizerHeroSection{
     width: 2rem;
-    height: auto;
+    height: 2rem;
     margin-right: 1rem;
+}
+
+
+/* the 4th section of the hero section wrapper 4 */
+.wrapperHeroSection4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.paddingEdits{
+    margin-right: -1rem;
+}
+
+.fontSize{
+    font-size: 1rem;
 }
 
 /* =========== */
