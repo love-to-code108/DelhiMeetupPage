@@ -210,13 +210,13 @@
     width: 100%;
     max-width: 1920px;
     min-width: 1200px;
-    height: 60rem;
+    height: 68rem;
     background-color: var(--cp--black);
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    padding: 6rem 4rem;
+    padding: 11rem 4rem;
     padding-bottom: 0rem;
     position: relative;
  }
@@ -241,28 +241,48 @@
 }
 
 .EventTimelinebox{
-    width: 20rem;
+    width: 15rem;
     height: 5rem;
     background-color: var(--cp--white);
     margin: 0.1rem;
     position: relative;
+    padding: 0.5rem;
 }
 
 .box1{
-    bottom: 22rem;
-    left: 15rem;
+    bottom: 23.5rem;
+    left: 13rem;
 }
 .box2{
-    bottom: 15rem;
-    right: 10rem;
+    bottom: 18rem;
+    right: 8rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 .box3{
-    bottom: 11rem;
-    left: 15rem;
+    bottom: 13.5rem;
+    left: 13rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
 }
 .box4{
-    bottom: 7rem;
-    right: 10rem;
+    bottom: 9.2rem;
+    right: 8rem;
+   
+}
+.box4txt{
+    text-align: end;
+}
+.box4Img{
+    left: 12rem;
+}
+.box4txt2{
+    position: relative;
+    left: 6rem;
+    bottom: 2rem;
 }
 
 
@@ -270,6 +290,25 @@
 
 
 
+.textInEventTimelinebox{
+    font-family: var(--ff--sora);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--cp--black);
+}
+.imgResizer{
+    width: 2rem;
+    height: auto;
+    position: relative;
+    top: 0.1rem;
+}
+.pos{
+    position: relative;
+    bottom: 2rem;
+    left: 2.5rem;
+    font-weight: 600;
+
+}
 
 
 
@@ -353,6 +392,7 @@
     height: auto;
     margin-right: 5rem;
 }
+
 
 
 
