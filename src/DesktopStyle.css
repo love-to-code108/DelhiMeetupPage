@@ -1,0 +1,206 @@
+/* the main body of the website starts here */
+#mainGreyBackground{
+    background-color: var(--cp--darkGrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* dimensions */
+    width: 100%;
+    height: auto;
+}
+
+/* ==================== */
+/* THE NAVBAR GOES HERE */
+#navbar{
+    background-color: var(--cp--black);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: +10;
+}
+.navbarWrapper{
+    list-style: none;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linked{
+    text-decoration: none;
+    color: white;
+    font-family: var(--ff--sora);
+    font-size: 1.3rem;
+}
+
+.list3{
+    position: absolute;
+    right: 4rem;
+}
+
+.list2{
+    position: absolute;
+    right: 15.5rem;
+}
+
+.list1{
+    position: absolute;
+    right: 22.5rem;
+}
+
+.specialLink{
+    background-color: #c9ab91;
+    color: #2c1609;
+    padding: 0.4em;
+    border-radius: 10px;
+}
+
+.imgPlacer{
+    position: absolute;
+    top: 1.5rem;
+}
+
+/* ===================== */
+/* Hero BackGround Image */
+
+#heroSection{
+    width: 100%;
+    height: 115vh;
+    background-image: url(../assets/img/tarun-anand-giri-QdAGXP_Tv9Q-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:-15rem ;
+    background-position-x: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================= */
+/* HERO SECTION TEXT */
+#heroSectionTextWrapper{
+    width: 45rem;
+    height: 15rem;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 4rem;
+    left: 3rem;
+    
+}
+.heroTextMedium{
+    color: white;
+    font-size: 2rem;
+    font-family: var(--ff--jost);
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+.cityName{
+    color: white;
+    font-size: 6rem ;
+    font-family: var(--ff--sora);
+}
+
+
+
+/* =========== */
+/* SPEAKERS */
+#speakers{
+    background-color: var(--cp--black);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8rem;
+}
+#speakers h1{
+    font-size: 4rem;
+    font-family: var(--ff--sora);
+    padding: 4rem;
+    padding-top: 8rem;
+    margin-left: 6rem;
+    color: white;
+}
+
+
+
+
+/* speaker1 section */
+
+#speaker1div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
+    margin-bottom: 6rem;
+}
+.speaker1Paragraph{
+    width: 100%;
+    font-family: var(--ff--jost);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.speaker1Image{
+    width: 30%;
+    height: auto;
+    margin-left: 5rem;
+}
+.speaker1Heading{
+    width: 100%;
+    color: white;
+    font-size: 2.8rem;
+    font-family: var(--ff--sora);
+    font-weight: 600;
+    /* line-height: 2rem; */
+    margin-bottom: 1.6rem;
+}
+
+
+
+
+
+
+/* speaker2 section */
+#speaker2div{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.speaker2Image{
+    width: 30%;
+    height: auto;
+    margin-right:5rem ;
+}
+
+
+
+
+
+
+
+/* speaker3 section */
+#speaker3div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
+    margin-bottom: 6rem;
+}
+#writingWrapper{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
