@@ -1,0 +1,24 @@
+@media (max-width:1370px) {
+    .perksHeading{
+        margin-left: 6rem;
+    }
+    .imgPlacer{
+        right: 37rem;
+    }
+    #heroSectionTextWrapper{
+        left: 2rem;   
+    }
+    #speakers{
+        padding: 0 ;
+    }
+    #sponsor h1{
+        margin-left: 4rem;
+    }
+    #sponsor img{
+        margin-left: 3rem;
+    }
+    #letsConnect{
+        font-size: 14px;
+        height: 46rem;
+    }
+}

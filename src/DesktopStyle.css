@@ -408,6 +408,7 @@
 
 
 #letsConnect{
+    font-size: 16px;
     width: 100%;
     height: 56rem;
     max-width: 1920px;
@@ -432,33 +433,33 @@
 
 /* the socials */
 .discord{
-    width: 20rem;
-    height: 20rem;
+    width: 20em;
+    height: 20em;
     background-color: #7289da;
     position: absolute;
-    top: 8rem;
-    right: 8rem;
+    top: 8em;
+    right: 8em;
 }
 
 .twitter{
-    width: 12rem;
-    height: 12rem;
+    width: 12em;
+    height: 12em;
     background-color: #3b92f8;
     position: absolute;
-    top: 29rem;
-    right: 16rem;
+    top: 29em;
+    right: 16em;
 }
 
 .mediumSize{
-    width: 15rem;
-    height: 15rem;
+    width: 15em;
+    height: 15em;
     background-color: red;
     position: absolute;
-    top: 18rem;
-    right: 29rem;
+    top: 18em;
+    right: 29em;
 }
 .linkedin{
     background-color: #386ab5;
-    top: 34rem;
-    right: 29rem;
+    top: 34em;
+    right: 29em;
 }
