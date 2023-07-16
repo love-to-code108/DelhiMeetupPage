@@ -2,9 +2,9 @@
 :root{
     --ff--sora: 'Sora', sans-serif;
     --ff--jost: 'Jost', sans-serif;
-    --cp--black: #1C1B1F;
+    --cp--black: #1c1b1f;
     --cp--white: #D9D9D9;
-    --cp--darkGrey: #262424;
+    --cp--darkGrey: #2c2b2f;
     --cp--lightBlue: #3B92F8;
 }
 
@@ -13,4 +13,8 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+}
+
+.padding{
+    padding:8rem;
 }
