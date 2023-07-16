@@ -114,9 +114,9 @@
 /* =========== */
 /* SPEAKERS */
 #speakers{
-    background-color: blueviolet;
+    background-color: var(--cp--black);
     width: 100%;
-    height: 150vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,7 +126,15 @@
     font-size: 4rem;
     font-family: var(--ff--sora);
     padding: 4rem;
+    padding-top: 8rem;
+    margin-left: 6rem;
+    color: white;
 }
+
+
+
+
+/* speaker1 section */
 
 #speaker1div{
     display: flex;
@@ -138,8 +146,60 @@
     font-family: var(--ff--jost);
     font-size: 1.2rem;
     line-height: 1.4rem;
+    display: flex;
+    align-items: center;
+    color: white;
 }
 .speaker1Image{
-    width: 20rem;
+    width: 30%;
+    height: auto;
     margin-left: 5rem;
+}
+.speaker1Heading{
+    position: absolute;
+    color: white;
+    font-size: 2.8rem;
+    font-family: var(--ff--sora);
+    left: 17.6%;
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+
+
+
+
+
+/* speaker2 section */
+#speaker2div{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.speaker2Image{
+    width: 30%;
+    height: auto;
+    margin-right:5rem ;
+}
+.speaker2Paragraph{
+    width: 40%;
+    font-family: var(--ff--jost);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+/* speaker3 section */
+#speaker3div{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    margin-bottom: 6rem;
 }
