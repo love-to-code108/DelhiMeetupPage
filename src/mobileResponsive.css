@@ -669,3 +669,39 @@
     right: 25em;
 }
 }
+
+@media (max-width:375px){
+    #letsConnect{
+        font-size: 7.5px;
+    }
+    .cityName{
+        font-size: 4rem;
+    }
+    .heroTextMedium{
+        font-size: 1.4rem;
+    }
+    .box4txt2{
+        width: 6rem;
+    }
+    .pos{
+        width: 6rem;
+    }
+    .line1{
+        width: 17rem;
+    }
+    .line1{
+        left: 0.5rem;
+    }
+    .EventTimelineHeading{
+        font-size: 3.5rem;
+    }
+    .perksHeadingf{
+        font-size: 3.5rem;
+    }
+    .imgSubtitle{
+        font-size:1.5rem ;
+    }
+    #letsConnect{
+        font-size: 7px;
+    }
+}
