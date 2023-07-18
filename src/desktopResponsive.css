@@ -63,3 +63,29 @@
         left: 28rem;
     }
 }
+
+@media (max-width:1552px){
+    #perks{
+        position: relative;
+    }
+    .swag{
+        position: relative;
+        top: 0rem;
+        left: 20rem;
+    }
+    .hat {
+        position: relative;
+        top: 28rem;
+        right: 15rem;
+    }
+    .pizzaMove{
+        position: relative;
+        top: 28rem;
+        right: 8rem;
+    }
+    .netwrok{
+        position: absolute;
+        top: 0rem;
+        right: -9rem;
+    }
+}

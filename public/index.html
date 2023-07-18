@@ -236,13 +236,13 @@
                     </div>
                     
                     
-                    <div class="swags pizza">
+                    <div class="swags pizza pizzaMove">
                         <img class="swagsImgTrim pizzaImg" src="../assets/svg/pizza.png" alt="">
                         <p class="imgSubtitle">FREE FOOD</p>
                     </div>
 
 
-                    <div class="swags pizza">
+                    <div class="swags pizza netwrok">
                         <img class="swagsImgTrim networking" src="../assets/img/networking.png" alt="">
                         <p class="imgSubtitle">NETWORKING</p>
                     </div>
@@ -268,21 +268,21 @@
             <!-- LETS CONNECT SECTION -->
             <div id="letsConnect" class="padding">
                 <h1 class="letsConnectHeading">LETS <br>CONNECT</h1>
-                <img class="letsConnectImgTrimmer" src="../assets/img/QRCODE.png" alt="Change your brwoser">
+                <img onclick="qrCode()" class="letsConnectImgTrimmer" src="../assets/img/QRCODE.png" alt="Change your brwoser">
                 
-                <div class="discord">
+                <div class="discord" onclick="discord()">
                     <img class="sizeDiscord" src="../assets/svg/discord.svg" alt="">
                 </div>
                 
-                <div class="twitter">
+                <div onclick="twitter()" class="twitter">
                     <img class="sizetwitter" src="../assets/svg/twitter.svg" alt="">
                 </div>
                 
-                <div class="mediumSize youtube">
+                <div onclick="youtube()" class="mediumSize youtube">
                     <img class="sizeYoutube" src="../assets/svg/youtube.svg" alt="">
                 </div>
                 
-                <div class="mediumSize linkedin">
+                <div onclick="linkedin()" class="mediumSize linkedin">
                     <img class="sizeLinkedin" src="../assets/svg/linkedin.svg" alt="">
                 </div>
                 
@@ -291,6 +291,8 @@
             
         </div>
     </div>
+
+    <script src="../src/js/links.js"></script>
 </body>
 
 </html>
