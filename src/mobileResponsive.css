@@ -15,18 +15,19 @@
 /* THE NAVBAR GOES HERE */
 #navbar {
     background-color: var(--cp--black);
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     max-width: 425px;
     min-width: none;
     position: fixed;
     top: 0;
     z-index: +10;
+    overflow-x: hidden;
 }
 
 .navbarWrapper {
     list-style: none;
-    height: 5rem;
+    height: 4rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -64,8 +65,12 @@
 
 .imgPlacer {
     position: relative;
-    left: 2rem;
+    left: 0.2rem;
     
+}
+
+#noDisplay{
+    display: none;
 }
 
 /* ===================== */
@@ -73,21 +78,21 @@
 
 #heroSection {
     width: 100%;
-    height: 115vh;
+    height: 110vh;
     background-image: url(../assets/img/tarun-anand-giri-QdAGXP_Tv9Q-unsplash.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -15rem;
-    background-position-x: 1rem;
-    background-position-x: center;
+    background-position-y: 5rem;
+    background-position-x: 0rem;
+    background-position-x: -9rem;
     
+    background-attachment: initial;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1920px;
-    min-width: 1200px;
+    max-width: 400px;
+    min-width: 0px;
     
     
 }
@@ -95,32 +100,46 @@
 /* ================= */
 /* HERO SECTION TEXT */
 #heroSectionTextWrapper {
-    width: 54rem;
+    width: 0rem;
     height: auto;
     /* border: 2px solid blue; */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 4rem;
-    left: 2rem;
+    flex-direction: none;
+    justify-content: none;
+    align-items: none;
+    position: none;
+    bottom: 0rem;
+    left: 0rem;
     
 
 }
 
 .heroTextMedium {
+    width: 19rem;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: var(--ff--jost);
     font-weight: 600;
     line-height: 1rem;
+    position: relative;
+    bottom: 12rem;
+    left: 2rem;
+}
+.line1{
+    position: relative;
+    left: 1rem;
+}
+.line3{
+    left: 0.5rem;
+    width: 12.9rem;
 }
 
 .cityName {
     color: white;
     font-size: 6rem;
     font-family: var(--ff--sora);
+    position: relative;
+    bottom: 12rem;
 }
 
 
@@ -146,6 +165,7 @@
     justify-content: center;
     padding: 2rem;
     margin-right: 1rem;
+    display: none;
 }
 .wrapperHeroSectionPara{
     color: white;
@@ -162,6 +182,7 @@
     width: 0.25rem;
     height: 60%;
     background-color: rgba(255, 255, 255, 0.6);
+    display: none;
 }
 
 
@@ -173,6 +194,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    display: none;
 }
 .edits{
     margin-left: 1rem;
@@ -198,6 +220,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    display: none;
 }
 .paddingEdits{
     margin-right: -1rem;
@@ -210,6 +233,113 @@
 /* ===================== */
 /* EVENT TIMELINE */
  
+#EventTimeline{
+    width: 100%;
+    max-width: 475px;
+    min-width: 0px;
+    height: 68rem;
+    background-color: var(--cp--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 11rem 4rem;
+    padding-bottom: 0rem;
+    padding-top: 5rem;
+    position: relative;
+ }
+.EventTimelineHeading{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: var(--ff--sora);
+    margin-left: 0rem;
+    text-align: center;
+}
+.EventTimelineUnderline{
+    width: 33rem;
+    height: 0.3rem;
+    background-color: white;
+    position: relative;
+    left: 2rem;
+}
+.EventTimelineGitImage{
+    position: relative;
+    top: 4.5rem;
+    left: -8.5rem;
+}
+
+.EventTimelinebox{
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--cp--white);
+    margin: 0.1rem;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.box1{
+    bottom: 28.5rem;
+    left: 1rem;
+}
+.box2{
+    bottom: 23rem;
+    right: -1rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.box3{
+    bottom: 18.5rem;
+    left: 1rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.box4{
+    bottom: 14.2rem;
+    right: -1rem;
+   
+}
+.box4txt{
+    text-align: start;
+}
+.box4Img{
+    left: 0rem;
+}
+.box4txt2{
+    position: relative;
+    left: 2.5rem;
+    bottom: 2rem;
+}
+
+
+
+
+
+
+.textInEventTimelinebox{
+    font-family: var(--ff--sora);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--cp--black);
+}
+.imgResizer{
+    width: 2rem;
+    height: auto;
+    position: relative;
+    top: 0.1rem;
+}
+.pos{
+    position: relative;
+    bottom: 2rem;
+    left: 2.5rem;
+    font-weight: 600;
+
+}
+
+
 
 
 
@@ -228,8 +358,8 @@
     background-color: var(--cp--black);
     width: 100%;
     height: auto;
-    max-width: 1920px;
-    min-width: 1200px;
+    max-width: 0px;
+    min-width: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -331,8 +461,8 @@
 #perks {
     width: 100%;
     height: 57rem;
-    max-width: 1920px;
-    min-width: 1200px;
+    max-width: 0px;
+    min-width: 0px;
     background-color: var(--cp--black);
     display: flex;
     flex-direction: column;
@@ -401,8 +531,8 @@
 /* THE SPONSOR SECTION STARTS HERE */
 #sponsor {
     width: 100%;
-    max-width: 1920px;
-    min-width: 1200px;
+    max-width: 0px;
+    min-width: 0px;
     background-color: var(--cp--darkGrey);
     padding: 8rem 8rem;
     display: flex;
@@ -431,8 +561,8 @@
     font-size: 16px;
     width: 100%;
     height: 53rem;
-    max-width: 1920px;
-    min-width: 1200px;
+    max-width: 0px;
+    min-width: 0px;
     background-color: var(--cp--white);
     position: relative;
     
