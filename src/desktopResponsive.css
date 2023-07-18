@@ -65,27 +65,193 @@
 }
 
 @media (max-width:1552px){
-    #perks{
-        position: relative;
+    #perks {
+        width: 100%;
+        height: 81rem;
+        max-width: 1920px;
+        min-width: 1200px;
+        background-color: var(--cp--black);
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: center;
+        padding-bottom: 4rem;
+        padding-top: 10rem;
     }
+    
+    .perksHeading {
+        color: white;
+        font-size: 4rem;
+        font-family: var(--ff--sora);
+        font-weight: 600;
+        margin: 0rem;
+        margin-top: 0rem;
+        margin-right: 0;
+        position: relative;
+        bottom: 9rem;
+        left: 2rem;
+    }
+    
+    
+    #perkWrapper {
+        display: none;
+        flex-direction: initial;
+        align-items: center;
+        justify-content: center;
+        
+        
+        width: 60%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 10rem;
+        column-gap: 6rem;
+    }
+    
+    .swags {
+        width: 20rem;
+        height: 20rem;
+        background-color: var(--cp--darkGrey);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+    
+    }
+    
+    .swagsImgTrim {
+        width: 14rem;
+        height: 14rem;
+    }
+    .swagImg{
+        position: initial;
+        top: 0rem;
+    }
+    .pizzaImg{
+        position: initial;
+        top: 1rem;
+    }
+    .hat{
+        position: initial;
+        top: 0rem;
+        right: 0rem;
+    }
+    
     .swag{
-        position: relative;
+        position: initial;
         top: 0rem;
-        left: 20rem;
+        left: 0rem;
     }
-    .hat {
+    
+    .pizza {
+        margin-left: 0rem;
+    }
+    .networking{
+        position: initial;
+        top: 1rem;
+    }
+    .knowledge{
+        position: initial;
+        top: 3.5rem;
+    }
+    
+    
+    .imgSubtitle {
+        font-size: 2rem;
+        color: white;
+        font-family: var(--ff--jost);
         position: relative;
-        top: 28rem;
-        right: 15rem;
+        top: 6rem;
+        font-weight: 600;
+    
     }
-    .pizzaMove{
+
+
+
+    /* the lets connect section */
+    #letsConnect{
+        font-size: 12px;
+        width: 100%;
+        height: 53rem;
+        max-width: 1920px;
+        min-width: 1200px;
+        background-color: var(--cp--white);
         position: relative;
-        top: 28rem;
-        right: 8rem;
+        
     }
-    .netwrok{
+    .letsConnectHeading{
+        color: var(--cp--black);
+        font-weight: 600;
+        font-family: var(--ff--sora);
+        font-size: 4rem;
+    
+    }
+    .letsConnectImgTrimmer{
+        width: 20%;
+        height: auto;
+        margin: 2rem 0;
+    }
+    
+    
+    /* the socials */
+    .discord{
+        width: 20em;
+        height: 20em;
+        background-color: #7289da;
         position: absolute;
-        top: 0rem;
-        right: -9rem;
+        top: 21em;
+        right: 6em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    .sizeDiscord{
+        width: 9rem;
+        height: auto;
+    }
+    
+    .twitter{
+        width: 12em;
+        height: 12em;
+        background-color: #3b92f8;
+        position: absolute;
+        top: 42em;
+        right: 14em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizetwitter{
+        width: 5rem;
+        height: auto;
+    }
+    
+    .mediumSize{
+        width: 15em;
+        height: 15em;
+        background-color: red;
+        position: absolute;
+        top: 31em;
+        right: 27em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizeYoutube{
+        width: 6rem;
+        height: auto;
+    }
+
+    .linkedin{
+        background-color: #386ab5;
+        top: 47em;
+        right: 27em;
+    }
+    .sizeLinkedin{
+        width: 6rem;
+        height: auto;
+    }
+    
 }
