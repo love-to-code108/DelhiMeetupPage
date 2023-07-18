@@ -1,7 +1,7 @@
 @media (max-width:425px){
     /* the main body of the website starts here */
 #mainGreyBackground {
-    background-color: rgb(73, 73, 73);
+    background-color: var(--cp--black);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -470,6 +470,8 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 8rem;
+    position: relative;
+    bottom: 6rem;
 }
 
 .perksHeading {
@@ -482,6 +484,7 @@
     margin-right: 0;
     position: relative;
     bottom: 6rem;
+    left: 0rem;
 }
 
 
@@ -511,6 +514,9 @@
 }
 
 .swag {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
     margin-right: 0rem;
     margin-bottom: 2rem;
 }
@@ -534,6 +540,11 @@
 .knowledge{
     position: relative;
     top: 3rem;
+}
+.hat{
+    position: relative;
+    top: 0rem;
+    right: 0rem;
 }
 
 
@@ -671,6 +682,27 @@
 }
 
 @media (max-width:375px){
+    #heroSection {
+        width: 100%;
+        height: 110vh;
+        background-image: url(../assets/img/tarun-anand-giri-QdAGXP_Tv9Q-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-y: 3rem;
+        background-position-x: 0rem;
+        background-position-x: center;
+        background-origin: content-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        min-width: 0px;
+        
+        
+        
+    }
     #letsConnect{
         font-size: 7.5px;
     }
