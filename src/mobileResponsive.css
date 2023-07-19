@@ -73,6 +73,33 @@
     display: none;
 }
 
+
+#hamburgerMenuButton{
+    width: 2rem;
+    height: 2rem;
+
+    background-color:#c9ab91;
+    border-radius: 50%;
+
+    z-index: +12;
+
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+                        /* THE DISPLAY NONE PART */
+
+}
+
+
+.imgHamburgerMenuImg{
+    width: 1.2rem;
+    height: auto;
+}
+
 /* ===================== */
 /* Hero BackGround Image */
 
@@ -526,7 +553,7 @@
 }
 .pizza {
     margin-left: 0rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
 }
 .pizzaImg{
