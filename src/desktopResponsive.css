@@ -344,6 +344,8 @@
         display: flex;  
                             /* THE DISPLAY NONE PART */
     
+
+        cursor: pointer;
     }
     
     
