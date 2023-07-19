@@ -95,7 +95,14 @@
     right: 2rem;
 
     display: none;  /* THE DISPLAY NONE PART */
+    align-items: center;
+    justify-content: center;
 
+}
+
+.imgHamburgerMenuImg{
+    width: 1.6rem;
+    height: auto;
 }
 
 
