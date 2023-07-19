@@ -23,6 +23,10 @@ function youtube(){
 function linkedin(){
     window.open("https://www.linkedin.com/company/eduhub-community", "_blank");
 }
+// linkedin
+function register(){
+    window.open("https://lu.ma/cryptocarnival-ncr", "_blank");
+}
 
 // venue link
 function venue(){

@@ -320,6 +320,23 @@
     font-size: 1rem;
 }
 
+#registernow{
+    width: 10rem;
+    height: 2rem;
+
+    background-color: white;
+    color: #2c1609;
+    font-family: var(--ff--sora);
+    font-weight: 600;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid #2c1609; */
+
+}
+
 /* ================= */
 /* EVENT TIMELINE */
 #EventTimeline{

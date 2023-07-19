@@ -129,7 +129,7 @@
         top: 0rem;
     }
     .pizzaImg{
-        position: initial;
+        position: relative;
         top: 1rem;
     }
     .hat{
@@ -148,11 +148,11 @@
         margin-left: 0rem;
     }
     .networking{
-        position: initial;
+        position: relative;
         top: 1rem;
     }
     .knowledge{
-        position: initial;
+        position: relative;
         top: 3.5rem;
     }
     
