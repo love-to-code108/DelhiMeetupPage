@@ -255,3 +255,159 @@
     }
     
 }
+
+
+
+@media(max-width:1300px){
+    #navbar {
+        background-color: var(--cp--black);
+        width: 100%;
+        max-width: 1920px;
+        min-width: 100px;
+        position: fixed;
+        top: 0;
+        z-index: +10;
+    }
+    
+    .navbarWrapper {
+        list-style: none;
+        height: 5rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .linked {
+        text-decoration: none;
+        color: white;
+        font-family: var(--ff--sora);
+        font-size: 1.3rem;
+    }
+    
+    .list3 {
+        position: absolute;
+        right: 4rem;
+    
+        display: none;          
+                                /* THE DISPLAY NONE PART */
+    
+    
+        
+    }
+    
+    .list2 {
+        position: absolute;
+        right: 13.5rem;
+    
+        display: none;          
+                                /* THE DISPLAY NONE PART */
+    }
+    
+    .list1 {
+        position: absolute;
+        right: 20.5rem;
+    
+        display: none;          
+                                /* THE DISPLAY NONE PART */
+    }
+    
+    .specialLink {
+        background-color: #c9ab91;
+        color: #2c1609;
+        padding: 0.4em;
+        border-radius: 10px;
+    }
+    
+    .imgPlacer {
+        position: relative;
+        left: 2rem;
+        
+    }
+    
+    /* ======================================================== */
+    /* THE HAMBURGER MENU GOES HERE */
+    
+    #hamburgerMenuButton{
+        width: 3rem;
+        height: 3rem;
+    
+        background-color:#c9ab91;
+        border-radius: 50%;
+    
+        z-index: +12;
+    
+        position: fixed;
+        top: 1rem;
+        right: 2rem;
+    
+        display: flex;  
+                            /* THE DISPLAY NONE PART */
+    
+    }
+    
+    
+    #hamburgerMenu{
+        width: 20rem;
+        height: 100vh;
+    
+        background-color: #2c1609;
+    
+        position: fixed;
+        top: 0rem;
+        right: -21rem;
+    
+        overflow-x: hidden;
+    
+        display: flex;
+        justify-content: start;
+        padding: 4rem;
+        padding-right: 0rem;
+        
+    
+        z-index: +11;
+    
+        display: flex; 
+                            /* THE DISPLAY NONE PART */
+    }
+    
+    #hamburgerMenuWrapper{
+        list-style: none;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .HamLink1, .HamLink2{
+        text-decoration: none;
+        color: white;
+        font-family: var(--ff--sora);
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .HamLink3{
+        text-decoration: none;
+        color: black;
+        font-family: var(--ff--sora);
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    
+    .hamLink1list1{
+        position: relative;
+        bottom: 2rem;
+    
+    }
+    .hamLink1list2{
+        position: relative;
+    
+    }
+    .hamLink1list3{
+        position: relative;
+        top: 2rem;
+    
+    }
+    
+}

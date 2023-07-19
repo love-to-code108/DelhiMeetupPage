@@ -42,17 +42,27 @@
     position: absolute;
     right: 4rem;
 
+    /* display: none;           */
+                            /* THE DISPLAY NONE PART */
+
+
     
 }
 
 .list2 {
     position: absolute;
     right: 13.5rem;
+
+    /* display: none;           */
+                            /* THE DISPLAY NONE PART */
 }
 
 .list1 {
     position: absolute;
     right: 20.5rem;
+
+    /* display: none;           */
+                            /* THE DISPLAY NONE PART */
 }
 
 .specialLink {
@@ -110,7 +120,7 @@
     z-index: +11;
 
     display: none; 
-    /* THE DISPLAY NONE PART */
+                        /* THE DISPLAY NONE PART */
 }
 
 #hamburgerMenuWrapper{
