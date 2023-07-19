@@ -27,7 +27,7 @@ t1
     .to("#startingAnimationBlue", {
         x: -1950,
         duration: 2,
-        ease: "power2.in",
+        ease: "power4.in",
         
     });
 
