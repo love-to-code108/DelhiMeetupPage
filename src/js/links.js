@@ -23,3 +23,8 @@ function youtube(){
 function linkedin(){
     window.open("https://www.linkedin.com/company/eduhub-community", "_blank");
 }
+
+// venue link
+function venue(){
+    window.open("https://www.google.com/maps/place/Ecosphere/@28.6113818,77.376021,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce56ff65e5439:0xc8c042eaec502599!8m2!3d28.6113818!4d77.376021!16s%2Fg%2F11gydjr0f9?entry=ttu", "_blank");
+}
