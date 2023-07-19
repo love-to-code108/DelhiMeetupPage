@@ -25,7 +25,7 @@ let t1 = gsap.timeline()
 t1
 
     .to("#startingAnimationBlue", {
-        x: -1950,
+        x: -4000,
         duration: 2,
         ease: "power4.in",
         
