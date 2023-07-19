@@ -8,8 +8,21 @@
     /* dimensions */
     width: 100%;
     height: auto;
-
     
+    
+}
+
+body{
+    -ms-overflow-style: none;
+
+}
+
+html{
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
 
 /* ==================== */
