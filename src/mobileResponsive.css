@@ -1,4 +1,73 @@
 @media (max-width:425px){
+
+/* the starting animation  */
+#startingAnimationBlue{
+    background-color: #0148a3;
+    width: 100%;
+    height: 100svh;
+
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow-x: hidden;
+
+    z-index: 101;
+    
+}
+
+#startingAnimationPercent{
+    color: #0148a3;
+    font-family: var(--ff--sora);
+    font-size: 2rem;
+    font-weight: 900;
+    position: fixed;
+
+    z-index: 102;
+
+    bottom: 1%;
+    right: 1%;
+}
+
+.startingAnimationBlueLogo{
+    position: fixed;
+    width: 10rem;
+    height: auto;
+
+    z-index: 100;
+    
+}
+
+
+#startingAnimationWhite{
+    background-color: white;
+    width: 100%;
+    height: 100svh;
+    
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 98;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* the main body of the website starts here */
 #mainGreyBackground {
     background-color: var(--cp--black);

@@ -15,9 +15,22 @@
     
 }
 
+#startingAnimationPercent{
+    color: #0148a3;
+    font-family: var(--ff--sora);
+    font-size: 4.2rem;
+    font-weight: 900;
+    position: fixed;
+
+    z-index: 102;
+
+    bottom: 1%;
+    right: 1%;
+}
+
 .startingAnimationBlueLogo{
     position: fixed;
-    width: 20rem;
+    width: 18rem;
     height: auto;
 
     z-index: 100;
